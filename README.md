@@ -38,11 +38,11 @@ analyzing_lab_results/
 
 ---
 
-## 📦 Requirements
-- Python 3.10+  
-- `pip`  
-- Packages in `requirements.txt`
-
+# 📄 requirements.txt
+```txt
+pandas==2.2.2
+matplotlib==3.8.4
+```
 To install manually:
 ```bash
 pip install -r requirements.txt
@@ -180,6 +180,7 @@ pandas==2.2.2
 matplotlib==3.8.4
 
 ## 🙈 .gitignore
+```txt
 .venv/
 __pycache__/
 *.pyc
@@ -188,8 +189,9 @@ outputs/
 cleaned_*.csv
 flags_*.csv
 summary_*.csv
-
+```
 ## 🧪 sample_labs.csv
+```csv
 PatientID,Sex,Test,Value,Units,Date
 1001,M,HGB,12.8,g/dL,2025-01-02
 1002,F,HGB,16.2,g/dL,2025-01-03
@@ -199,6 +201,6 @@ PatientID,Sex,Test,Value,Units,Date
 1006,F,GLU,102,mg/dL,2025-01-08
 1007,M,HGB,14.9,g/dL,2025-01-09
 1008,F,HGB,11.4,g/dL,2025-01-10
-
+```
 ## 📜 License
 MIT — see LICENSE.
