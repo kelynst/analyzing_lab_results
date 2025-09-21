@@ -94,48 +94,33 @@ python labs_analyzer.py sample_labs.csv \
   ```
 
 ## 📝 Example Output (terminal)
-================================================================
+```bash
 Loading data
-================================================================
 • Rows: 8  Cols: 6
 • Columns: ['PatientID', 'Sex', 'Test', 'Value', 'Units', 'Date']
 
-================================================================
 Normalizing schema
-================================================================
-• Column mapping (canonical → actual):
-   - patient_id → 'PatientID'
-   - sex        → 'Sex'
-   - test_name  → 'Test'
-   - value      → 'Value'
-   - units      → 'Units'
-   - date       → 'Date'
+• patient_id → 'PatientID'
+• sex        → 'Sex'
+• test_name  → 'Test'
+• value      → 'Value'
+• units      → 'Units'
+• date       → 'Date'
 
-================================================================
 Flagging out-of-range values
-================================================================
 • Reference ranges applied for: HGB, WBC, GLU
 
-================================================================
 Summarizing
-================================================================
 • Summary rows: 6
 
-================================================================
 Saving CSVs
-================================================================
 • Cleaned CSV : cleaned_sample_labs.csv
 • Flags CSV   : flags_sample_labs.csv
 • Summary CSV : summary_sample_labs.csv
 
-================================================================
 Plotting
-================================================================
 • Charts saved in: outputs
 
-================================================================
-Done
-================================================================
 ✅ Lab Analysis Complete
 • Input         : sample_labs.csv
 • Cleaned CSV   : cleaned_sample_labs.csv
@@ -143,7 +128,7 @@ Done
 • Summary CSV   : summary_sample_labs.csv
 • Rows (clean)  : 8
 • Charts dir    : outputs
-
+```
 ---
 
 ## 🧪 Reference Ranges Demo  
