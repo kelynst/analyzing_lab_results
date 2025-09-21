@@ -176,8 +176,10 @@ MIT — see LICENSE.
 ---
 
 # 📄 requirements.txt
+```txt
 pandas==2.2.2
 matplotlib==3.8.4
+```
 
 ## 🙈 .gitignore
 ```txt
